@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ vm - Debug ]----------"
-	@"$(MAKE)" -f  "vm.mk"
+	@echo "----------Building project:[ car - Debug ]----------"
+	@cd "/home/tim/Documents/car" && "$(MAKE)" -f  "car.mk"
 clean:
-	@echo "----------Cleaning project:[ vm - Debug ]----------"
-	@"$(MAKE)" -f  "vm.mk" clean
+	@echo "----------Cleaning project:[ car - Debug ]----------"
+	@cd "/home/tim/Documents/car" && "$(MAKE)" -f  "car.mk" clean

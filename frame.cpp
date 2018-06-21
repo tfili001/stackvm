@@ -1,11 +1,10 @@
 #include "frame.h"
 
 void Frame::displayByte_Stream()
-{	printf("Code:\n");
+{	
+	printf("Code:\n");
 		for(size_t i=0;i<sizeof(byte_stream);i++)
-			printf("   %d: %02u \n",i, byte_stream[i]);
-
-		
+			printf("   %d: %02u \n",i, byte_stream[i]);		
 			
 }
 

@@ -21,7 +21,7 @@ struct Frame
 		uint8_t *byte_stream;
 		vector<int>op_stack;
 		int var_ct;
-		double var_field[var_ct];
+		double var_field[4];
 		void displayByte_Stream();
 		void displayStack();
 };
