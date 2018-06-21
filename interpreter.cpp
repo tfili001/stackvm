@@ -4,7 +4,7 @@ void Interpreter::execFrame(int frame_index,size_t instr_count,bool test)
 {
 	
 	// Copy Frame object
-	// Frame frame;
+
 	Frame frame = frameStack[frame_index];
 	
 	uint8_t *byte_stream = frame.byte_stream;
